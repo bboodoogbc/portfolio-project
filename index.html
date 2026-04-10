@@ -47,10 +47,7 @@ nav a{
   font-weight:500;
 }
 
-nav a:hover{
-  transform:translateY(-1px);
-  box-shadow:0 4px 12px rgba(124,58,237,0.3);
-}
+nav a:hover{color:var(--accent);}
 
 .btn{
   background:linear-gradient(135deg,var(--accent),var(--accent2));
@@ -60,6 +57,12 @@ nav a:hover{
   text-decoration:none;
   font-size:14px;
   white-space: nowrap;
+}
+
+.btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 4px 12px rgba(124,58,237,0.3);
+  color:#fff;
 }
 
 /* HERO */
@@ -182,7 +185,6 @@ footer{
     gap:20px;
   }
 }
-
 
 /* MOBILE */
 @media (max-width: 768px){
